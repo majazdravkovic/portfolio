@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Maja Zdravković Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Maja Zdravković" />
+  <link rel="stylesheet" type="text/css" href="myStyle.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Saira+Condensed" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="animate.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="jqueryEffects.js"></script>
+</head>
+<body>
+  
+  <header id="header">
+    <nav id="nav">
+      <ul>
+	    <li><a href="#home">HOME</a></li>
+	    <li><a href="#aboutMe">ABOUT ME</a></li>
+	    <li><a href="#myWork">MY WORK</a></li>
+	    <li><a href="#contact">CONTACT ME</a></li>
+	  </ul>
+    </nav>
+  </header>
+    
+  <div class="clear">
+  </div>
+  
+  <div id="home">
+  </div>
+  
+  <div id="aboutMe">
+    <div class="textContent">
+	  <h1 class="name">MAJA ZDRAVKOVIĆ</h1>
+	  <h3 class="position">Junior Front End Developer</h3>
+	</div>
+	<div class="profilePhoto">
+	  <img src="maja.jpg" alt="My Photo" width="200px" height="250px" />
+	</div>
+    <div class="row">
+	  <div class="mySkills">
+	    <div class="col-6">
+	      <div class="introText">
+		    <h1 style="font-size:25px">Hello!</h1>
+		    <p>Welcome to my portfolio.</p>
+		    <p>My name is Maja. I live in Belgrade.</p>
+		    <p>I am highly motivated junior front end developer.</p>
+		    <p>I started to learn programming on my own.</p>
+		    <p>I am permanently curious, quick learner and commited to exelence.</p>
+		    <p>On this site, you can see some of my works. It's not much, but I know I can grow more.</p>
+		  </div>
+	    </div>
+	    <div class="col-6">
+	      <div class="myKnowlage">
+	        <ul>
+	          <li>XHTML, HTML5</li>
+		      <li>CSS, CSS3</li>
+		      <li>Bootstrap</li>
+		      <li>JavaScript</li>
+		      <li>jQuery</li>
+		      <li>Adobe Photoshop</li>
+			  <li>&nbsp; &nbsp; AngularJS</li>
+			</ul>
+	      </div>
+	    </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="clear">
+  </div>
+  
+  <div id="myWork">
+    <h1>MY WORK</h1>
+	<a href="https://majazdravkovic.github.io/mommysImaginaryFriends" target="_blank" title="Mommy's Imaginary Friends" ><img src="myWork1.jpg" alt="myWork" width="400px" height="360px" /></a>
+	<a href="https://majazdravkovic.github.io/onlinecalculator/" target="_blank" title="Online Calculator" ><img src="myWork2.jpg"  alt="myWork" width="400px" height="360px" /></a>
+	<br/>
+	<a href="https://majazdravkovic.github.io/onlineclock/" target="_blank" title="Online Analog Clock"><img src="MyWork3.jpg" alt="myWork" width="400px" height="360px" /></a>
+    <a href="https://majazdravkovic.github.io/hangmanGame/" target="_blank" title="Online Hangman Game"><img src="MyWork4.jpg" alt="myWork" width="400px" height="360px" /></a>
+  </div>
+  
+  <div class="clear">
+  </div>
+  
+  <div id="contact">
+    <div class="row" style="overflow:hidden;padding-bottom:30px;">
+	  <div class="col-7">
+	    <p class="contactMe">CONTACT ME</p>
+	  </div>
+	  <div class="col-5">
+	    <div class="contactData">
+	      <p><i class="fa fa-id-card" style="font-size:15px;color:black"></i>&nbsp&nbsp<b>Address:</b> Diljska 19, Belgrade</p>
+		  <p><i class="fa fa-phone" style="font-size:15px;color:black"></i>&nbsp&nbsp<b>Telephone:</b> 064/27 54 012</p>
+		  <p><i class="fa fa-envelope" style="font-size:15px;color:black"></i>&nbsp&nbsp<b>E-mail:</b> majas_ns@yahoo.com</p>
+		</div>
+	  </div>
+	</div>
+	
+	<form action="https://formspree.io/majas_ns@yahoo.com" method="POST">
+	  <div class="row" style="overflow:hidden;">
+		<div class="col-6 input">
+		  <div class="inputForm">
+		    <input type="text" name="name" id="fname" placeholder="Your name*" required="required" /><br/>
+	        <input type="email" name="_replayto" id="email" placeholder="Your email address*" required="required" /><br/>
+	        <textarea name="subject" id="subject" placeholder="Subject" rows="5"></textarea>
+		  </div>
+	    </div>
+	    <div class="col-6 message">
+		  <div class="messageForm">
+		    <textarea name="body" id="message" placeholder="Type your message here.." rows="10"></textarea>
+		  </div>
+	    </div>	
+	  </div>
+	  <div class="submit">
+	     <input type="submit" name="submit" id="submit" value="SEND" />
+	  </div>
+	</form>
+  </div>
+  
+  <div id="home">
+  </div>
+    
+</body>
+</html>
